@@ -12,7 +12,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"Число {num} делится на 2?  ");
 
 
-if (num%2)
+if (num % 2 ==0)
 {
     Console.WriteLine("Да");
 }
